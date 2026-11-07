@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minimal Launcher</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_all_apps">All apps</string>
+    <string name="favourites">Favourites</string>
+    <string name="favourites_empty">Hold OK on any app in All apps to add it to Favourites</string>
+    <string name="all_apps">All apps</string>
+
+    <string name="search_hint">Search apps</string>
+    <string name="no_results">No matching apps</string>
+
+    <string name="cd_wifi">Wi-Fi</string>
+    <string name="cd_bluetooth">Bluetooth</string>
+    <string name="cd_menu">Launcher menu</string>
+
+    <string name="add_favourite">Add to favourites</string>
+    <string name="remove_favourite">Remove from favourites</string>
+    <string name="move_earlier">Move earlier</string>
+    <string name="move_later">Move later</string>
+    <string name="hide_app">Hide app</string>
+    <string name="app_info">App info</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="app_hidden">%1$s hidden</string>
+    <string name="cannot_open">Unable to open %1$s</string>
+
+    <string name="menu_title">Launcher</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="menu_hidden_apps">Hidden apps</string>
+    <string name="menu_android_settings">Android settings</string>
+    <string name="menu_choose_settings">Choose settings app</string>
+    <string name="choose_settings_title">Which app is your device settings?</string>
+    <string name="settings_unavailable">That settings screen is not available on this device</string>
+
+    <string name="wallpaper_title">Wallpaper</string>
+    <string name="wallpaper_choose">Choose an image…</string>
+    <string name="wallpaper_dark">Dark gradients</string>
+    <string name="wallpaper_light">Light gradients</string>
+    <string name="wallpaper_reset">Reset to default</string>
+    <string name="no_picker">No file picker found on this device. Use a gradient instead.</string>
+    <string name="wallpaper_failed">Unable to load that image</string>
+
+    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

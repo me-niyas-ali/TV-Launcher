@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colours that change between the dark and light launcher themes -->
+    <attr name="launcherTextPrimary" format="color" />
+    <attr name="launcherTextSecondary" format="color" />
+    <attr name="launcherFocusFill" format="color" />
+    <attr name="launcherPillFill" format="color" />
+    <attr name="launcherAccent" format="color" />
+    <attr name="launcherScrimTop" format="color" />
+    <attr name="launcherScrimBottom" format="color" />
+</resources>

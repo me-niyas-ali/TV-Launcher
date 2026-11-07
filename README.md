@@ -8,11 +8,11 @@ A minimal home-screen replacement for Android TV and Android boxes. Android 9 (A
 - **Favourites**: long-press OK on an app (or press Menu / Info) to add, remove or reorder
 - **Installed apps**: grid of every launchable app (Leanback and regular launcher apps)
 - **Hide apps**: hide from the long-press menu, or tick several at once under menu ▸ Hidden apps
-- **Custom wallpaper**: pick an image, choose a colour preset, or reset (menu ▸ Wallpaper)
-- **Top settings panel**: Search, Wi-Fi, Bluetooth, Date & time, Launcher menu
+- **Custom wallpaper**: pick an image, choose one of 6 dark or 6 light gradients, or reset (menu ▸ Wallpaper). Light gradients automatically switch the UI to dark text.
+- **Top settings panel**: search bar, Wi-Fi, Bluetooth, Launcher menu
 
-Search opens the system search (Google TV / Android TV) when the device has one, otherwise it
-searches installed apps by name.
+The search bar filters installed apps by name as you type and shows the matches in All apps.
+Clearing it or pressing Back returns Home.
 
 ## Project layout
 
@@ -29,8 +29,8 @@ TVLauncher/
         │   ├── AppInfo.kt             app model
         │   ├── AppAdapter.kt          tile adapter (favourites row + grid)
         │   ├── PrefsStore.kt          favourites, hidden apps, wallpaper choice
-        │   ├── Wallpapers.kt          image import, presets
-        │   └── SystemShortcuts.kt     Wi-Fi / Bluetooth / Date & time / search intents
+        │   ├── Wallpapers.kt          image import, light/dark gradients
+        │   └── SystemShortcuts.kt     Wi-Fi / Bluetooth / Settings intents
         └── res/                       layouts, drawables, strings, theme
 ```
 
@@ -58,6 +58,6 @@ Re-enable it with `pm enable <stock-launcher-package>` to go back.
 
 ## Notes
 
-- Some TVs have no file picker, so choosing a wallpaper image may show a message; colour presets always work.
-- Wi-Fi, Bluetooth and Date & time shortcuts fall back to the main Settings screen where a device
+- Some TVs have no file picker, so choosing a wallpaper image may show a message; gradients always work.
+- Wi-Fi and Bluetooth shortcuts fall back to the main Settings screen where a device
   does not expose a direct screen.
